@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable-v24/selected_day_bg.xml" value="0.145" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/bg.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/border_orange.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/botm_menu_selector.xml" value="0.13194444444444445" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/bottom_menu_selector.xml" value="0.14020270270270271" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/bottom_nav_bg.xml" value="0.14020270270270271" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/btn__color_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/btn_bg.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/btn_bg_red.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/btn_border.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/btn_border_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/btn_payment_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/btn_switch_bg.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/camera_bg.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/clock_bg.xml" value="0.145" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/edit_text_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/edtime_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/host_btn_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_applepay.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_arrow_black.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_arrow_down.xml" value="0.145" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_arrow_left_2.xml" value="0.145" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_back.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_blog.xml" value="0.145" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_camera.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_favorite.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_home.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_homee.xml" value="0.1" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_like.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_menu_down_arrow.xml" value="0.14020270270270271" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_minus.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_profile.xml" value="0.14020270270270271" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/ic_search.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/img_bg_orange.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/imgbg_blue.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/imge_circular_bg.xml" value="0.14020270270270271" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/item_unselected.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/item_view_chatting.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/radio_btn_inset.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/recyleview_border.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/relativelayout_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/search_calander_bg.xml" value="0.131" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/searhbar_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/send_msg_editex_bg.xml" value="0.13651315789473684" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/square_btn_bg.xml" value="0.14020270270270271" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/tab_selector.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/uploads_img_bg.xml" value="0.13517915309446255" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/drawable/view_bg.xml" value="0.145" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/activity_auth.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/activity_host_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/activity_splesh.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/blank_fragment.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/bottom_va_layout2.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/calendar_day_view.xml" value="0.22" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/calendar_header.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_add_hotel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_add_payment.xml" value="0.12" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_auth_home.xml" value="0.12" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_availibility.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_bloarding.xml" value="0.2" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_blog_detail.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_blogs.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_boarding.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_bookin.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_booking.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_booking_complete.xml" value="0.22" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_booking_request.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_create_invoice.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_create_new_password.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_edit_frolfile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_edit_prolfile.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_favorite_places.xml" value="0.22" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_forgot_password.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_host_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_host_messages.xml" value="0.2" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_host_profile.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_host_signu_detail.xml" value="0.2" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_host_signup_detail.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_hotel_center_detail.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_logout.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_message_detail.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_message_detailk.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_messages.xml" value="0.12" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_notification.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_notifications.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_o_t_p.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_payment.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_payment_done.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_profile.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_rating.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_rating_done.xml" value="0.12" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_search.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_search_location.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_sign_up.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_terms_and_condition.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_total_incomeragment.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_update_availibility.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/fragment_update_category.xml" value="0.2" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_booking_request.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_host_img.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_places.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_sechdule.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_view_blogs.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_view_chatting.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_view_favorite_places.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_view_notification.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/item_view_search_location.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/popup_confirmation.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/popup_email_sent.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/popup_favorate_places.xml" value="0.12972972972972974" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/popup_notification.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/popup_roomcreaction_confirmation.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/side_navigation_drawer.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/layout/square_button_bg.xml" value="0.12972972972972974" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/HotelBooking/app/src/main/res/menu/bottom_nav_drawer.xml" value="0.12972972972972974" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/drawable/ic_back_dark.xml" value="0.1305" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/drawable/imge_circular_bg.xml" value="0.113" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/drawable/item_unselected.xml" value="0.1305" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/drawable/tab_selector.xml" value="0.1305" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/activity_auth.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/activity_main.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/bottom_va_layout2.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/fragment_add_hotel.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/fragment_edit_prolfile.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/fragment_favorite_places.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/fragment_host_profile.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/fragment_logout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/fragment_search.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/fragment_search_location.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/item_view_search_location.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/popup_confirmation.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Waseem Abbas/AndroidStudioProjects/ZAT Projects/HotelBooking/app/src/main/res/layout/side_navigation_drawer.xml" value="0.12631578947368421" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.14666666666666667" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

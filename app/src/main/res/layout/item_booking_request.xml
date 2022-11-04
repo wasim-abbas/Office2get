@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recyleview_border">
+
+    <LinearLayout
+        android:id="@+id/llName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/_16sdp"
+            />
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="HelloWorld"
+            android:background="@color/transparent"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/btns_color"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llDate"
+        android:layout_below="@+id/llName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/_16sdp"
+            />
+        <TextView
+            android:id="@+id/edDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="13-Feb-2022"
+            android:background="@color/transparent"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/btns_color"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llTime"
+        android:layout_below="@+id/llDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/time"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/_16sdp"
+            />
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12:00Pm-2:00pm"
+            android:background="@color/transparent"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/btns_color"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llPrice"
+        android:layout_below="@+id/llTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/price"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/_16sdp"
+            />
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="$50"
+            android:background="@color/transparent"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/btns_color"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCity"
+        android:layout_below="@+id/llPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/city"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/_16sdp"
+            />
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Peshawar"
+            android:background="@color/transparent"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/btns_color"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/llCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/number_of_people"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            />
+        <TextView
+            android:id="@+id/tvNumOFPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="05"
+            android:background="@color/transparent"
+            android:paddingEnd="@dimen/_12sdp"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/btns_color"
+            android:layout_marginBottom="@dimen/_16sdp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/llCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:weightSum="2"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/confirm"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/poppins_regular"
+            android:background="@drawable/btn__color_bg"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:paddingStart="@dimen/_16sdp"
+            />
+        <TextView
+            android:id="@+id/btnCancal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancal"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/btn_bg_red"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

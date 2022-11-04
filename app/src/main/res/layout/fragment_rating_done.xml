@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btns_color"
+    tools:context=".views.fragments.mainFragments.RatingDoneFragment">
+
+    <RelativeLayout
+        android:id="@+id/llimg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:background="@drawable/loginbg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:src="@drawable/ratedone" />
+
+    </RelativeLayout>
+
+    <TextView
+        style="@style/TextViewTop"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="@string/rate_our_service"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:src="@drawable/ic_close"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/relativelayout_bg"
+        android:elevation="@dimen/_5sdp"
+        android:outlineProvider="background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llimg">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@color/btns_color" />
+
+        <RelativeLayout
+            android:id="@+id/llratingDone"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_below="@id/view1"
+            android:gravity="center"
+            android:elevation="@dimen/_2sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:background="@drawable/imge_circular_bg"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_check"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ratingTnx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llratingDone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/thanks_for_your_rating"
+            android:fontFamily="@font/encodeeans_semibold"
+            android:textSize="@dimen/_17ssp"
+            android:textStyle="bold"
+            />
+
+
+                <TextView
+                    android:id="@+id/btnProceed"
+                    style="@style/btns_style"
+                    android:layout_below="@id/ratingTnx"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:background="@drawable/btn__color_bg"
+                    android:text="@string/proceed"
+                    android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

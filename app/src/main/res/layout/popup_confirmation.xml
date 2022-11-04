@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_16sdp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_24sdp"
+        android:elevation="@dimen/_2sdp"
+        android:outlineProvider="bounds"
+        >
+
+        <TextView
+            android:id="@+id/tvDilogemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/encodeeans_semibold"
+            android:text="@string/confirmation"
+            android:textColor="@color/popup_color"
+            android:textSize="@dimen/_13ssp" />
+        <TextView
+            android:id="@+id/tvdilogDes"
+            android:layout_below="@+id/tvDilogemail"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/encodeeans_semibold"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/popupText_color"
+            android:text="@string/updated_sucessfully"/>
+
+        <TextView
+            android:layout_below="@id/tvdilogDes"
+            android:id="@+id/btnok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/encodeeans_semibold"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/popup_ok_color"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_20sdp"
+
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

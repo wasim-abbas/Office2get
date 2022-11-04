@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/host_nav_graph"
+    app:startDestination="@id/hostMainFragment">
+    <fragment
+        android:id="@+id/hostMainFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.HostMainFragment"
+        android:label="fragment_host_main"
+        tools:layout="@layout/fragment_host_main" >
+        <action
+            android:id="@+id/action_hostMainFragment_to_availibilityFragment"
+            app:destination="@id/availibilityFragment" />
+        <action
+            android:id="@+id/action_hostMainFragment_to_bookingRequestFragment"
+            app:destination="@id/bookingRequestFragment" />
+        <action
+            android:id="@+id/action_hostMainFragment_to_bookingCompleteFragment"
+            app:destination="@id/bookingCompleteFragment" />
+        <action
+            android:id="@+id/action_hostMainFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_hostMainFragment_to_hostProfileFragment"
+            app:destination="@id/hostProfileFragment" />
+        <action
+            android:id="@+id/action_hostMainFragment_to_messagesFragment2"
+            app:destination="@id/messagesFragment2" />
+        <action
+            android:id="@+id/action_hostMainFragment_to_createInvoiceFragment"
+            app:destination="@id/createInvoiceFragment" />
+        <action
+            android:id="@+id/action_hostMainFragment_to_totalIncomeFragment"
+            app:destination="@id/totalIncomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/availibilityFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.AvailibilityFragment"
+        android:label="fragment_availibility"
+        tools:layout="@layout/fragment_availibility" />
+    <fragment
+        android:id="@+id/bookingRequestFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.BookingRequestFragment"
+        android:label="fragment_booking_request"
+        tools:layout="@layout/fragment_booking_request" />
+    <fragment
+        android:id="@+id/bookingCompleteFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.BookingCompleteFragment"
+        android:label="fragment_booking_complete"
+        tools:layout="@layout/fragment_booking_complete" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.NotificationsFragment"
+        android:label="fragment_host_messages"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/hostProfileFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.HostProfileFragment"
+        android:label="fragment_host_profile"
+        tools:layout="@layout/fragment_host_profile" />
+    <fragment
+        android:id="@+id/messagesFragment2"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.MessagesFragment"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/createInvoiceFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.CreateInvoiceFragment"
+        android:label="fragment_create_invoice"
+        tools:layout="@layout/fragment_create_invoice" />
+    <fragment
+        android:id="@+id/totalIncomeFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.TotalIncomeFragment"
+        android:label="fragment_total_incomeragment"
+        tools:layout="@layout/fragment_total_incomeragment" />
+</navigation>

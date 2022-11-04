@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="myteal">#21D1CC</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="topImg_bg_color">#707070</color>
+    <color name="btns_color">#4EB7F5 </color>
+    <color name="btns_boder_color">#D1D1D1 </color>
+    <color name="btns_noClick_color">#2B2B38 </color>
+    <color name="main_bg__color">#F7F5F5 </color>
+    <color name="red_circle_color">#FF6648 </color>
+    <color name="orange">#FF8C62 </color>
+    <color name="popup_color">#26252D </color>
+    <color name="popup_ok_color">#3399CC </color>
+    <color name="popupText_color">#686868 </color>
+    <color name="cardView_btn_color"> #9DA2A2 </color>
+    <color name="grey_light"> #BFBEBE </color>
+    <color name="rippleColor">#75000000</color>
+    <color name="ViewAlltxtColor">#21D1CC</color>
+    <color name="grey">#9da2a2</color>
+    <color name="yellow">#ffc107</color>
+    <color name="border">#E6E6E6</color>
+    <color name="seraview_bg"> #E8E6E6</color>
+    <color name="start_colr"> #F5A13E</color>
+    <color name="msg_colr"> #8B8B8B</color>
+    <color name="drawe_btn_color">#9DA2A2</color>
+    <color name="terms_color">#4E526B</color>
+    <color name="hotsMain_bg_color">#707070</color>
+    <color name="red">#F90000</color>
+    <color name="back_arrow_color">#949494</color>
+
+
+
+
+
+
+
+
+
+
+
+</resources>

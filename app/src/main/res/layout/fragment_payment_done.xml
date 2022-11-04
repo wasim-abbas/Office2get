@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/btns_color"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.mainFragments.PaymentDoneFragment">
+
+    <RelativeLayout
+        android:id="@+id/llimg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:background="@drawable/loginbg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:src="@drawable/ratedone" />
+
+    </RelativeLayout>
+
+    <TextView
+        style="@style/TextViewTop"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="@string/booking_done"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/relativelayout_bg"
+        android:elevation="@dimen/_5sdp"
+        android:outlineProvider="background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llimg">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@color/btns_color" />
+
+        <TextView
+            android:id="@+id/txtCongrats"
+            android:layout_below="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_36sdp"
+            android:text="@string/congrats"
+            android:textColor="@color/btns_color"
+            android:textSize="@dimen/_18ssp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/sf_prodisplay_regular"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/ratingTnx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtCongrats"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/thanks_for_your_booking"
+            android:fontFamily="@font/encodeeans_semibold"
+            android:textSize="@dimen/_17ssp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/btndone"
+            style="@style/btns_style"
+            android:layout_below="@id/ratingTnx"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/btn__color_bg"
+            android:text="@string/done"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

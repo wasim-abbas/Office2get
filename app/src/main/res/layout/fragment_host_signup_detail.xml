@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btns_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".views.fragments.mainFragments.HostSignupDetailFragment">
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <RelativeLayout
+         android:id="@+id/llimg"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/_250sdp"
+         android:background="@drawable/loginbg"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+
+         <com.google.android.material.imageview.ShapeableImageView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="@dimen/_45sdp"
+             android:scaleType="fitXY"
+             android:src="@drawable/login" />
+
+     </RelativeLayout>
+
+     <TextView
+         style="@style/TextViewTop"
+         android:layout_marginTop="@dimen/_16sdp"
+         android:text="@string/fill_detail"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+
+     <ImageView
+         android:id="@+id/iv_back"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="@dimen/_20sdp"
+         android:layout_marginTop="@dimen/_16sdp"
+         android:src="@drawable/ic_right_arrow"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginTop="@dimen/_10sdp"
+         android:background="@drawable/relativelayout_bg"
+         android:elevation="@dimen/_5sdp"
+         android:outlineProvider="background"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toBottomOf="@id/llimg">
+
+         <View
+             android:layout_width="@dimen/_60sdp"
+             android:layout_height="@dimen/_3sdp"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@color/btns_color" />
+
+         <TextView
+             android:id="@+id/txtOtp"
+             style="@style/TextView_below_topImage"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="@dimen/_30sdp"
+             android:text="@string/fill_the_details_given_below"
+             android:textColor="@color/btns_color" />
+
+         <View
+             android:id="@+id/viewline"
+             android:layout_width="@dimen/_60sdp"
+             android:layout_height="@dimen/_3sdp"
+             android:layout_below="@id/txtOtp"
+             android:layout_marginStart="@dimen/_20sdp"
+             android:layout_marginTop="@dimen/_5sdp"
+             android:background="@color/btns_color" />
+
+         <EditText
+             android:id="@+id/edFirstName"
+             style="@style/Editetx"
+             android:layout_below="@id/viewline"
+             android:layout_marginTop="@dimen/_24sdp"
+             android:background="@drawable/edit_text_bg"
+             android:hint="@string/first_name"
+             android:padding="@dimen/_10sdp"
+             android:paddingStart="@dimen/_10sdp"
+             android:textColorHint="@color/btns_boder_color" />
+         <EditText
+             android:id="@+id/edLatName"
+             style="@style/Editetx"
+             android:layout_below="@id/edFirstName"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@drawable/edit_text_bg"
+             android:hint="@string/last_name"
+             android:padding="@dimen/_10sdp"
+             android:paddingStart="@dimen/_10sdp"
+             android:textColorHint="@color/btns_boder_color" />
+         <EditText
+             android:id="@+id/edCompanyName"
+             style="@style/Editetx"
+             android:layout_below="@id/edLatName"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@drawable/edit_text_bg"
+             android:hint="@string/compnay_name"
+             android:padding="@dimen/_10sdp"
+             android:paddingStart="@dimen/_10sdp"
+             android:textColorHint="@color/btns_boder_color" />
+         <EditText
+             android:id="@+id/edAdress"
+             style="@style/Editetx"
+             android:layout_below="@id/edCompanyName"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@drawable/edit_text_bg"
+             android:hint="@string/adress"
+             android:padding="@dimen/_10sdp"
+             android:paddingStart="@dimen/_10sdp"
+             android:textColorHint="@color/btns_boder_color" />
+         <EditText
+             android:id="@+id/edCity"
+             style="@style/Editetx"
+             android:layout_below="@id/edAdress"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@drawable/edit_text_bg"
+             android:hint="@string/city"
+             android:padding="@dimen/_10sdp"
+             android:paddingStart="@dimen/_10sdp"
+             android:textColorHint="@color/btns_boder_color" />
+         <EditText
+             android:id="@+id/edVatNumber"
+             style="@style/Editetx"
+             android:layout_below="@id/edCity"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@drawable/edit_text_bg"
+             android:hint="@string/vat_number"
+             android:padding="@dimen/_10sdp"
+             android:paddingStart="@dimen/_10sdp"
+             android:textColorHint="@color/btns_boder_color" />
+         <EditText
+             android:id="@+id/edPhoneNum"
+             style="@style/Editetx"
+             android:layout_below="@id/edCity"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@drawable/edit_text_bg"
+             android:hint="@string/phNum"
+             android:padding="@dimen/_10sdp"
+             android:paddingStart="@dimen/_10sdp"
+             android:textColorHint="@color/btns_boder_color" />
+
+
+
+         <TextView
+             android:id="@+id/btnProceed"
+             style="@style/btns_style"
+             android:layout_below="@id/edPhoneNum"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@drawable/btn__color_bg"
+             android:text="@string/proceed"
+             android:textColor="@color/white" />
+
+         <View
+             android:layout_width="@dimen/_60sdp"
+             android:layout_height="@dimen/_3sdp"
+             android:layout_below="@id/btnProceed"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="@dimen/_16sdp"
+             android:background="@color/btns_color"
+             android:layout_marginBottom="@dimen/_24sdp"/>
+
+     </RelativeLayout>
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

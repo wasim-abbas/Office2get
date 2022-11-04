@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.mainFragments.SearchLocationFragment">
+
+    <TextView
+        android:id="@+id/txtFavOlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:fontFamily="@font/lato_heavy"
+        android:gravity="center"
+        android:text="@string/favorite_places"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/arrowBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:src="@drawable/ic_right_black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/llFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_20sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/arrowBack"
+        >
+
+        <EditText
+            android:id="@+id/filterBy"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/searhbar_bg"
+            android:hint="@string/filter_by"
+            android:padding="@dimen/_8sdp"
+            />
+
+        <EditText
+            android:id="@+id/sortBy"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/grey_light"
+            android:drawableEnd="@drawable/ic_arrow_down"
+            android:background="@drawable/searhbar_bg"
+            android:hint="@string/sortby"
+            android:padding="@dimen/_8sdp"
+            app:layout_constraintTop_toBottomOf="@id/arrowBack" />
+
+
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RvSearchFavoritePlaces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llFilter"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_view_search_location" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

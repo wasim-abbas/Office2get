@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.mainFragments.PaymentFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/btns_color"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/llimg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_80sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layoutDirection="rtl">
+
+                <RadioButton
+                    android:id="@+id/rbtnPayment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_payment_bg"
+                    android:drawableEnd="@drawable/ic_credit_card"
+                    android:drawablePadding="@dimen/_16sdp"
+                    android:fontFamily="@font/catamaran_semibold"
+                    android:padding="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_16sdp"
+                    android:buttonTint="@color/btns_color"
+                    android:text="@string/credit_card"
+                    android:textSize="@dimen/_15ssp"
+                    android:checked="true"
+
+                    />
+
+                <RadioButton
+                    android:id="@+id/rBtn_payPal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:background="@drawable/btn_payment_bg"
+                    android:drawableEnd="@drawable/ic_paypal"
+                    android:drawablePadding="@dimen/_16sdp"
+                    android:fontFamily="@font/catamaran_semibold"
+                    android:padding="@dimen/_8sdp"
+                    android:buttonTint="@color/btns_color"
+                    android:paddingEnd="@dimen/_16sdp"
+                    android:text="@string/paypal"
+                    android:textSize="@dimen/_15ssp" />
+
+                <RadioButton
+                    android:id="@+id/rBtn_GooglePay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:background="@drawable/btn_payment_bg"
+                    android:drawableEnd="@drawable/ic_googlepay"
+                    android:drawablePadding="@dimen/_16sdp"
+                    android:fontFamily="@font/catamaran_semibold"
+                    android:padding="@dimen/_8sdp"
+                    android:buttonTint="@color/btns_color"
+                    android:paddingEnd="@dimen/_16sdp"
+                    android:text="@string/google_pay"
+                    android:textSize="@dimen/_15ssp" />
+
+                <RadioButton
+                    android:id="@+id/rBtn_ApplePay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:background="@drawable/btn_payment_bg"
+                    android:buttonTint="@color/btns_color"
+                    android:drawableEnd="@drawable/ic_applepay"
+                    android:drawablePadding="@dimen/_16sdp"
+                    android:fontFamily="@font/catamaran_semibold"
+                    android:padding="@dimen/_8sdp"
+                    android:paddingEnd="@dimen/_16sdp"
+                    android:text="@string/apple_pay"
+                    android:textSize="@dimen/_15ssp" />
+
+            </RadioGroup>
+
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TextViewTop"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="payment method"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:src="@drawable/ic_right_arrow"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/imge_circular_bg"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="@dimen/_2sdp"
+                android:outlineProvider="bounds"
+                android:src="@drawable/profile" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:background="@drawable/relativelayout_bg"
+            android:elevation="@dimen/_5sdp"
+            android:outlineProvider="background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/llimg">
+
+            <View
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@color/myteal" />
+
+
+
+
+            <EditText
+                android:id="@+id/edCarNumber"
+                style="@style/Editetx"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:background="@drawable/edit_text_bg"
+                android:hint="@string/card_number"
+                android:padding="@dimen/_10sdp"
+                android:paddingStart="@dimen/_16sdp"
+                android:textColorHint="@color/btns_boder_color" />
+
+            <EditText
+                android:id="@+id/edMMYY"
+                style="@style/Editetx"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/edit_text_bg"
+                android:hint="@string/mm_yy"
+                android:layout_below="@id/edCarNumber"
+                android:padding="@dimen/_10sdp"
+                android:paddingStart="@dimen/_16sdp"
+                android:maxLength="4"
+                android:textColorHint="@color/btns_boder_color" />
+            <EditText
+                android:id="@+id/edCVC"
+                style="@style/Editetx"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/edit_text_bg"
+                android:hint="@string/cvc"
+                android:layout_below="@id/edMMYY"
+                android:padding="@dimen/_10sdp"
+                android:paddingStart="@dimen/_16sdp"
+                android:maxLength="4"
+                android:textColorHint="@color/btns_boder_color" />
+
+            <TextView
+                android:id="@+id/btnSave"
+                style="@style/btns_style"
+                android:layout_below="@id/edCVC"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:background="@drawable/btn__color_bg"
+                android:text="@string/save"
+                android:textColor="@color/white" />
+
+
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

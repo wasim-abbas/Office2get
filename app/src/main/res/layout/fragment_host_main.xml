@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.hostFragment.HostMainFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/topImg"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_320sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/host_main"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/TextViewTop"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/welcome_jhon"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:src="@drawable/ic_right_arrow"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="-70dp"
+            android:background="@drawable/relativelayout_bg"
+            android:elevation="@dimen/_5sdp"
+            android:outlineProvider="background"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/topImg">
+
+            <View
+                android:id="@+id/viewline"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:background="@drawable/view_bg" />
+
+            <TextView
+                android:id="@+id/btnAvailibility"
+                style="@style/Editetx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/viewline"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:background="@drawable/edit_text_bg"
+                android:drawableEnd="@drawable/ic_arrow_black"
+                android:fontFamily="@font/sf_prodisplay_regular"
+
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_36sdp"
+                android:paddingBottom="@dimen/_10sdp"
+
+                android:text="@string/set_availability"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnConfirmBooings"
+                style="@style/Editetx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnAvailibility"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:background="@drawable/edit_text_bg"
+                android:drawableEnd="@drawable/ic_arrow_black"
+                android:fontFamily="@font/sf_prodisplay_regular"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_36sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/confirm_bookings"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnCompletedBooking"
+                style="@style/Editetx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnConfirmBooings"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/edit_text_bg"
+                android:drawableEnd="@drawable/ic_arrow_black"
+                android:fontFamily="@font/sf_prodisplay_regular"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_36sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/completed_bookings"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnMychat"
+                style="@style/Editetx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnCompletedBooking"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/edit_text_bg"
+                android:drawableEnd="@drawable/ic_arrow_black"
+                android:fontFamily="@font/sf_prodisplay_regular"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_36sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/my_chat"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnMyProfile"
+                style="@style/Editetx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnMychat"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/edit_text_bg"
+                android:drawableEnd="@drawable/ic_arrow_black"
+                android:fontFamily="@font/sf_prodisplay_regular"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_36sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/my_profile"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnMyNotification"
+                style="@style/Editetx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnMyProfile"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/edit_text_bg"
+                android:drawableEnd="@drawable/ic_arrow_black"
+                android:fontFamily="@font/sf_prodisplay_regular"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_36sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/notifications2"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnCreateInvoice"
+                style="@style/Editetx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnMyNotification"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/edit_text_bg"
+                android:drawableEnd="@drawable/ic_arrow_black"
+                android:fontFamily="@font/sf_prodisplay_regular"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_36sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/create_invoices"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnMyIncome"
+                style="@style/Editetx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnCreateInvoice"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_24sdp"
+                android:background="@drawable/edit_text_bg"
+                android:drawableEnd="@drawable/ic_arrow_black"
+                android:fontFamily="@font/sf_prodisplay_regular"
+                android:paddingStart="@dimen/_16sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_36sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/my_income"
+                android:textColor="@color/btn_switch_color"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

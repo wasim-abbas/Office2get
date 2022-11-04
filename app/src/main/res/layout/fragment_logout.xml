@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btns_color"
+    tools:context=".views.fragments.mainFragments.LogoutFragment">
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/llimg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            android:background="@drawable/loginbg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:src="@drawable/messages" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TextViewTop2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/sf_prodisplay_regular"
+            android:text="my profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18ssp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:src="@drawable/ic_menu_dot"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/relativelayout_bg"
+            android:elevation="@dimen/_5sdp"
+            android:outlineProvider="background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/llimg">
+
+
+            <LinearLayout
+                android:id="@+id/llPErsonalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_60sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:fontFamily="@font/lato_heavy"
+                    android:padding="@dimen/_12sdp"
+                    android:text="@string/personal_info"
+                    android:textColor="@color/grey_light"
+                    android:textSize="@dimen/_14ssp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/btnForward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-80dp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:src="@drawable/ic_back_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lltvUpdatePayment"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_100sdp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_24sdp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/lato_heavy"
+                    android:padding="@dimen/_12sdp"
+                    android:text="@string/update_payment_card"
+                    android:textColor="@color/grey_light"
+                    android:textSize="@dimen/_14ssp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/btnForwardPayemt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-80dp"
+                    android:layout_marginTop="@dimen/_45sdp"
+                    android:src="@drawable/ic_back_dark" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/btnReset"
+                style="@style/btns_style"
+                android:layout_below="@id/lltvUpdatePayment"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/btn__color_bg"
+                android:text="@string/log_out"
+                android:textColor="@color/white"
+
+                android:layout_marginBottom="@dimen/_24sdp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+

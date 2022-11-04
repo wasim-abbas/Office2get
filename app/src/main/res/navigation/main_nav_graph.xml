@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_searchLocationFragment"
+            app:destination="@id/searchLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_messagesFragment"
+            app:destination="@id/messagesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addHotelFragment"
+            app:destination="@id/addHotelFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bookinFragment"
+            app:destination="@id/bookinFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favoritePlacesFragment"
+            app:destination="@id/favoritePlacesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bookingCompleteFragment2"
+            app:destination="@id/bookingCompleteFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_notificationsFragment2"
+            app:destination="@id/notificationsFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_blogsFragment"
+            app:destination="@id/blogsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_termsAndConditionFragment"
+            app:destination="@id/termsAndConditionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.MessagesFragment"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.LogoutFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/addHotelFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.AddHotelFragment"
+        android:label="fragment_add_hotel"
+        tools:layout="@layout/fragment_add_hotel" />
+    <fragment
+        android:id="@+id/searchLocationFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.SearchLocationFragment"
+        android:label="fragment_search_location"
+        tools:layout="@layout/fragment_search_location" >
+        <action
+            android:id="@+id/action_searchLocationFragment_to_hotelCenterDetailFragment"
+            app:destination="@id/hotelCenterDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hotelCenterDetailFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.HotelCenterDetailFragment"
+        android:label="fragment_hotel_center_detail"
+        tools:layout="@layout/fragment_hotel_center_detail" >
+        <action
+            android:id="@+id/action_hotelCenterDetailFragment_to_addPaymentFragment"
+            app:destination="@id/addPaymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPaymentFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.AddPaymentFragment"
+        android:label="fragment_add_payment"
+        tools:layout="@layout/fragment_add_payment" >
+        <action
+            android:id="@+id/action_addPaymentFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_paymentDoneFragment"
+            app:destination="@id/paymentDoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentDoneFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.PaymentDoneFragment"
+        android:label="fragment_payment_done"
+        tools:layout="@layout/fragment_payment_done" />
+    <fragment
+        android:id="@+id/bookinFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.BookinFragment"
+        android:label="fragment_booking"
+        tools:layout="@layout/fragment_booking" />
+    <fragment
+        android:id="@+id/favoritePlacesFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.FavoritePlacesFragment"
+        android:label="fragment_favorite_places"
+        tools:layout="@layout/fragment_favorite_places" />
+    <fragment
+        android:id="@+id/bookingCompleteFragment2"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.BookingCompleteFragment"
+        android:label="fragment_booking_complete"
+        tools:layout="@layout/fragment_booking_complete" />
+    <fragment
+        android:id="@+id/notificationsFragment2"
+        android:name="com.zat.hotelbooking.views.fragments.hostFragment.NotificationsFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/blogsFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.BlogsFragment"
+        android:label="fragment_blogs"
+        tools:layout="@layout/fragment_blogs" >
+        <action
+            android:id="@+id/action_blogsFragment_to_blogDetailFragment"
+            app:destination="@id/blogDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/termsAndConditionFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.TermsAndConditionFragment"
+        android:label="fragment_terms_and_condition"
+        tools:layout="@layout/fragment_terms_and_condition" />
+    <fragment
+        android:id="@+id/blogDetailFragment"
+        android:name="com.zat.hotelbooking.views.fragments.mainFragments.BlogDetailFragment"
+        android:label="fragment_blog_detail"
+        tools:layout="@layout/fragment_blog_detail" />
+</navigation>

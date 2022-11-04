@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/llNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:background="@drawable/recyleview_border"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_24sdp"
+        android:paddingVertical="@dimen/_12sdp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgNotification"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_notification" />
+
+        <TextView
+            android:id="@+id/txtNotificatin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/sf_prodisplay_regular"
+            android:paddingStart="@dimen/_16sdp"
+            android:text="@string/notifications"
+            android:textColor="@color/drawe_btn_color"
+            android:textSize="@dimen/_15ssp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBlogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llNotification"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/recyleview_border"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_24sdp"
+        android:paddingVertical="@dimen/_12sdp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/imgBlogs"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_blog" />
+
+        <TextView
+            android:id="@+id/txtBlogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/sf_prodisplay_regular"
+            android:paddingStart="@dimen/_16sdp"
+            android:text="@string/blogs"
+            android:textColor="@color/drawe_btn_color"
+            android:textSize="@dimen/_15ssp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llBlogs"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/recyleview_border"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_24sdp"
+        android:paddingVertical="@dimen/_12sdp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/imgTerms"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_term" />
+
+        <TextView
+            android:id="@+id/txtTerms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/sf_prodisplay_regular"
+            android:paddingStart="@dimen/_16sdp"
+            android:text="@string/terms_amp_condition"
+            android:textColor="@color/drawe_btn_color"
+            android:textSize="@dimen/_15ssp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llPrivacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTerms"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/recyleview_border"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_24sdp"
+        android:paddingVertical="@dimen/_12sdp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+
+            android:id="@+id/imgPrivacy"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_policy" />
+
+        <TextView
+            android:id="@+id/txtPrivacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/sf_prodisplay_regular"
+            android:paddingStart="@dimen/_16sdp"
+            android:text="@string/privacy_policy"
+            android:textColor="@color/drawe_btn_color"
+            android:textSize="@dimen/_15ssp" />
+    </LinearLayout>
+
+</RelativeLayout>
